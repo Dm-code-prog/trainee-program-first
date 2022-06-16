@@ -2,6 +2,7 @@
 
 :root {
     --button-dark-color: #3D5675;
+    --soft-black: #011F3A;
 }
 
 ::-webkit-scrollbar {
@@ -15,6 +16,7 @@
 ::-webkit-scrollbar-thumb {
     background: rgb(152, 152, 152);
     border-radius: 100px;
+    margin-top: 62px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -30,6 +32,7 @@
 
 body {
     background: #EEEEEE;
+    overflow: hidden;
 }
 
 h1,h2,button {
@@ -46,13 +49,16 @@ h2 {
     font-size: 32px;
 }
 
-li{
-    text-transform: uppercase;
-}
-
 p li,
 a {
     font-weight: 400;
+    color: var(--soft-black);
+    text-decoration: none;
+}
+
+a{
+    font-size: 14px;
+    line-height: 18px;
 }
 
 p {
@@ -66,4 +72,12 @@ button {
     outline: none;
     border: 0;
     min-width: 110px;
+}
+.app{
+    overflow:auto; 
+    position:absolute;
+    top: 62px; 
+    left:0;
+    right:0; 
+    bottom:0
 }
