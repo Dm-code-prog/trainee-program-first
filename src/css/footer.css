@@ -1,0 +1,47 @@
+footer {
+    height: 365px;
+    width: 100%;
+    background: #F2F3F4;
+    padding: 60px 120px;
+}
+
+footer .footer-content { 
+    width: 1200px;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .footer-content ul li a  {
+    height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #3D5675;
+}
+
+footer .footer-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer .footer-content ul li {
+    margin: 0;
+    padding: 0 0 17px;
+}
+.footer-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+    
+    
+
+
+
+
