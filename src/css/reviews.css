@@ -1,0 +1,57 @@
+.reviews h2{
+    margin-top: 42px;
+}
+.reviews-container{
+    width: 1024px;
+    height: 1174px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 42px;
+}
+
+.review{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review img {
+    max-width: 500px;
+}
+
+.review-comment{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-comment h3 {
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 400px;
+    padding: 12px;
+}
+
+.review-comment-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+}
+
+.review-comment-info button{
+    width: 160px;
+    height: 44px;
+    border-radius: 44px;
+    color: var(--button-dark-color);
+    background-color: var(--button-light-color);
+    font-weight: 400;
+    cursor: pointer;
+}
