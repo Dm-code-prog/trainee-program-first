@@ -1,3 +1,5 @@
+
+
 .content-top-container {  
     display: flex;
     flex-direction: row;
@@ -8,11 +10,11 @@
 
 .content-top-container h2 {   
     font-weight: 400;
-    color: #011F3A;
+    color: var(--soft-black);
 }
 
 .content-top-container button {   
-    background-color: #3D5675;
+    background-color: var(--button-dark-color);
     color: #ffffff;
     width: 247px;
     height: 44px;
@@ -35,7 +37,7 @@
 
 .content-item1-container {  
     width: 400px;
-    height: 430px;
+    height: 450px;
     background-color: #ffffff;
     border: solid 2px #EEEEEE;
 }
@@ -47,12 +49,20 @@
     justify-content: space-between;
 }
 
-.content-discription-container {    
+.content-description-container {    
     max-width: 225px;
+    padding: 5px;
 }
 
-.content-discription-container h3 {  
-    color: #011F3A;
+.content-description-container p {    
+    color: #777777;
+}
+
+.content-description-container h3 {  
+    text-align: left;
+    margin-block: 5px;
+    color: var(--soft-black);
+    font-weight: 400;
 }
 
 .content-price-container {
@@ -61,6 +71,7 @@
 }
 
 .content-price-container p {
+    color: #A1A1A1;
     text-align: center;
     max-height: fit-content;
     max-width: fit-content;
@@ -80,8 +91,8 @@
 }
 
 .content-shop-container button {   
-    background-color: #ffffff;
-    color: #011F3A;
+    background-color: var(--button-light-color);
+    color: var(--soft-black);
     width: 158px;
     height: 44px;
     border-radius: 44px;
@@ -94,3 +105,158 @@
     line-height: 44px;
     vertical-align: middle;
 }
+
+.order-procedure {  
+    display: flex;
+    justify-content: center;
+}
+
+.order-procedure-box-container { 
+    background-color: #72BDA3;   
+    width: 1200px;
+    height: 780px;
+    margin: 70px 120px;
+}
+
+.order-procedure-header-container { 
+    height: 40px;
+    margin-top: 88px;
+}
+
+.order-procedure-header-container h2 { 
+    font-weight: 500;
+}
+
+.order-procedure-items-holder { 
+    max-width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-block: 70px;
+}
+
+.order-procedure-item { 
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+
+.order-procedure-item h3 { 
+    padding: 10px;
+}
+
+.order-procedure-item p {   
+    color: var(--button-dark-color)
+}
+ 
+.order-procedure-bottom-button-container {  
+    display: flex;
+    justify-content: center;
+}
+
+.order-procedure-bottom-button-container button{  
+    background-color: var(--button-dark-color);
+    color: #ffffff;
+    width: 220px;
+    height: 44px;
+    border-radius: 44px;
+    letter-spacing: 2px
+}
+
+.advantages {   
+    display: flex;
+    justify-content: center;
+}
+
+.advantages-box-container { 
+    width: 1200px;
+    height: 630px;
+    margin: 70px 120px;
+}
+
+.advantages-header-container {  
+    margin-bottom: 80px;
+}
+
+.advantages-items-holder {  
+    width: 1200px;
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-item { 
+    width: 260px;
+    height: 420px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages-item h3 {   
+    margin-block: 12px;
+    text-align: left;
+}
+
+.request {  
+    display: flex;
+    justify-content: center;
+}
+
+.request-box-container {
+    width: 1200px;
+    height: 610px;
+    display: flex;
+    margin: 60px 120px;
+    background-color: #FFCA3A;
+    align-items: center;
+}
+
+.request-items-wrapper{
+    width: 1200px;
+    height: 410px;
+    display: flex;
+    flex-direction: row;
+}
+
+.request-item-container:first-of-type { 
+    border-right: solid 1px #A1A1A1;
+}
+
+.request-item-container {   
+    width: 600px;
+    height: 410px; 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.request-item { 
+    width: 360px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.request-item h2 {  
+    font-size: 24px;
+    color: var(--soft-black);
+    margin-block: 20px;
+}
+
+.request-item p {   
+    color: var(--button-dark-color);
+}
+
+.request-item button {  
+    width: 200px;
+    height: 44px;
+    border-radius: 44px;
+    margin-block: 10px;
+}
+
+div.request:last-child { border-width: 1px 0 0 0; }
