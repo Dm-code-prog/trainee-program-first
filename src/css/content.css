@@ -1,9 +1,13 @@
-
+.content-top-wrapper {  
+    display: flex;
+    justify-content: center;
+}
 
 .content-top-container {  
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 1200px;
     height: 44px;
     margin: 57px 120px;
 }
@@ -32,7 +36,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1200px;
+    width: 1200px;
 }
 
 .content-item1-container {  
@@ -74,7 +78,7 @@
     color: #A1A1A1;
     text-align: center;
     max-height: fit-content;
-    max-width: fit-content;
+    max-width: 100px;
 }
 
 .content-shop-wrapper { 
@@ -91,8 +95,8 @@
 }
 
 .content-shop-container button {   
-    background-color: var(--button-light-color);
-    color: var(--soft-black);
+    background-color: #ffffff;
+    color: var(--button-dark-color);
     width: 158px;
     height: 44px;
     border-radius: 44px;
@@ -113,6 +117,7 @@
 
 .order-procedure-box-container { 
     background-color: #72BDA3;   
+    min-width: 1200px;
     width: 1200px;
     height: 780px;
     margin: 70px 120px;
@@ -253,6 +258,7 @@
 }
 
 .request-item button {  
+    background-color: #ffffff;
     width: 200px;
     height: 44px;
     border-radius: 44px;
