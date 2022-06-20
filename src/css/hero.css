@@ -1,0 +1,65 @@
+.homep{
+    padding: 226px 120px ;
+    background-color:#F2AE4D;
+    min-height: 750px;
+
+}
+
+.hero-container{
+    max-width: 480px;
+    text-align: left;
+    font-weight: 400px;
+    font-size: 50px;
+}
+
+.hero-container button{
+    background-color: #3D5675;
+    color: #FFFFFF;
+    border-radius: 44px;
+    height: 56px;
+    width: 228px;
+    letter-spacing: 2px;
+
+}
+
+
+.hero-image-container{
+    position: absolute;
+    right: 0;
+    top: 87px;
+}
+
+.fast-hero{
+    text-align: left;
+    margin-bottom: 33px;
+    font-weight: 400;
+}
+
+.fastest-hero{
+    max-width: 290px;
+    color: #011F3A;
+    font-size: 16px;
+}
+
+.hero-bottom-content{
+    height: 120px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+    
+}
+
+.hero-bottom-shopify{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+
+}
+
+.hero-bottom-shopify p{
+    color:#A1A1A1;
+    font-size: 15px;
+
+}
