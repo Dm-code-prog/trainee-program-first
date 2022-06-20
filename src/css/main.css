@@ -32,7 +32,7 @@
 }
 
 body {
-    background: #EEEEEE;
+    background: rgb(238, 238, 238);
     overflow: hidden;
 }
 
@@ -54,11 +54,14 @@ h3{
     font-weight: 400;
 }
 
-p li,
+p, li,
 a {
     font-weight: 400;
     color: var(--soft-black);
     text-decoration: none;
+}
+ul{
+    list-style: none;
 }
 
 a{
