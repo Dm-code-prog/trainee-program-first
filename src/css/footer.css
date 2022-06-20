@@ -1,7 +1,7 @@
 footer {
     height: 365px;
     width: 100%;
-    padding: 60px 120px;
+    padding: 60px 0;
 }
 
 footer .footer-content { 
@@ -55,9 +55,9 @@ footer .footer-content ul li {
 }
 
 .footer-content ul.social-media {
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .footer-content ul.social-media li{
@@ -80,17 +80,12 @@ justify-content: flex-start;
 .pre-footer h2 {
     color:#011F3A;
     margin-bottom: 55px;
-    
-
-
-
 }
 
 .pre-footer ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  
+    list-style: none;
+    display: flex;
+    flex-direction: row;
 }
 
 .pre-footer ul a {
@@ -109,19 +104,3 @@ justify-content: flex-start;
     background:#3D5675; 
     color:#FFFFFF;
 }
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-
