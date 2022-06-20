@@ -1,8 +1,7 @@
 .homep{
     padding: 226px 120px ;
-    background-color:#F2AE4D;
+    background-color: #F2AE4D;
     min-height: 750px;
-
 }
 
 .hero-container{
@@ -19,7 +18,6 @@
     height: 56px;
     width: 228px;
     letter-spacing: 2px;
-
 }
 
 
@@ -47,19 +45,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around
-    
+    justify-content: space-around;   
 }
 
 .hero-bottom-shopify{
     display: flex;
     flex-direction: row;
-    align-items: center
-
+    align-items: center;
 }
 
 .hero-bottom-shopify p{
     color:#A1A1A1;
-    font-size: 15px;
-
+    font-size: 15px;   
 }
