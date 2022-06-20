@@ -40,12 +40,17 @@
 }
 
 .hero-bottom-content{
-    height: 120px;
     background-color: #FFFFFF;
+}
+
+.hero-bottom-content .inner-wrapper{
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;   
+    justify-content: space-between;
+    height: 120px; 
 }
 
 .hero-bottom-shopify{
