@@ -39,7 +39,7 @@
     width: 1200px;
 }
 
-.content-item1-container {  
+.content-item-container {  
     width: 400px;
     height: 450px;
     background-color: #ffffff;
@@ -52,13 +52,10 @@
 
 .content-header-container { 
     padding: 8px 25px;
-}
-
-.content-header-container h3 { 
     text-align: left;
 }
 
-.content-text-container {
+.content-description-text-container {
     padding-inline: 25px;
     display: flex;
     flex-direction: row;
@@ -67,9 +64,6 @@
 
 .content-description-container {    
     max-width: 225px;
-}
-
-.content-description-container p {    
     color: #777777;
 }
 
@@ -83,11 +77,8 @@
 .content-price-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.content-price-container p {
     color: #A1A1A1;
+    align-items: center;
     text-align: center;
     max-height: fit-content;
     max-width: 100px;
