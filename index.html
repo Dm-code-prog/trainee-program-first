@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="src/css/footer.css">
     <link rel="stylesheet" href="src/css/hero.css">
     <link rel="stylesheet" href="src/css/content.css">
-    
 </head>
 
 <body>
@@ -26,6 +25,13 @@
             <div class="content"></div>
             <div class="reviews"></div>
         </main>
+        <div class="pre-footer">
+            <h2>Let`s get to it</h2>
+            <ul>
+              <li><a href="#" class="blue">BROWSE ALL PRODUCT</a></li>
+              <li><a href="#">START Your Design</a></li>  
+            </ul>          
+            </div>
         <footer>
             <div class="footer-content">
                 <img src="./src/images/footer-logo.svg" width="85" height="24" alt="">
@@ -49,17 +55,24 @@
                     <li><a href="#">Shopify App</a></li>
                     <li><a href="#">14 Day Free Shopify Trial</a></li>
                     <li><a href="#">BigCommerce</a></li>
-                    <li><a href="#">Get exclusive offers and tips.</a></li>
+                    <li>
+                        <ul class="social-media">
+                            <li><a href="#"><img src="/src/images/fb icon.svg" width="24" height="24" alt="facebook"></a></li>                    
+                            <li><a href="#"><img src="/src/images/twit icon.svg" width="24" height="24" alt="twitter"></a></li>    
+                            <li><a href="#"><img src="/src/images/inst icon.svg" width="24" height="24" alt="instagram"></a></li>
+                        </ul> 
+                    </li>
                 </ul>
                 <div class="footer-container">
                     <form>
-                        <input type="email" value="Your email">
+                        <label for="email">Get exclusive offers and tips</label>
+                        <input type="email" value="Your email" id="email">
                         <button>Join Instantly</button>
                     </form>
                 </div>    
             </div>
         </footer>
     </div>
+         </div>
 </body>
-
 </html>

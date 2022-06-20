@@ -32,17 +32,15 @@ footer .footer-content ul li {
 .footer-container form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    align-items: flex-start;
 }
 
 .footer-container button {
     height: 44px;
-    width: 190px;
+    width: 187px;
     background: var(--button-dark-color);
     border-radius: 44px;
     color: white;
-    margin: 16px;
 }
 
 .footer-container input {
@@ -50,10 +48,75 @@ footer .footer-content ul li {
     background-color: white;
     border-radius: 44px;
     height: 36px;
-    width: 180px;
+    width: 280px;
     color: #3D567566;
     padding: 8px;
+    margin: 12px 0;
 }
+
+.footer-content ul.social-media {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+.footer-content ul.social-media li{
+    margin-right: 11px;
+}
+   
+.footer-content ul.social-media li a img {
+    margin: 0;
+}
+
+.pre-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 120px 0 137px;
+    background:#EEEEEE;
+}
+
+.pre-footer h2 {
+    color:#011F3A;
+    margin-bottom: 55px;
+    
+
+
+
+}
+
+.pre-footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.pre-footer ul a {
+    margin: 0 6px;
+    text-align: center;
+    display: block;
+    padding: 12px 25px;
+    height: 44px;
+    width: 247px;
+    background: #FFFFFF;
+    border-radius: 44px;
+    color:#3D5675   
+}
+
+.pre-footer ul a.blue {
+    background:#3D5675; 
+    color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
 
 
     
