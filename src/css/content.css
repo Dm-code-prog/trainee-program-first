@@ -63,15 +63,9 @@
 }
 
 .content-description-container {    
-    max-width: 225px;
+    max-width: 215px;
     color: #777777;
-}
-
-.content-description-container h3 {  
-    text-align: left;
-    margin-block: 5px;
-    color: var(--soft-black);
-    font-weight: 400;
+    line-height: 24px;
 }
 
 .content-price-container {
@@ -79,9 +73,10 @@
     flex-direction: column;
     color: #A1A1A1;
     align-items: center;
-    text-align: center;
+    text-align: right;
     max-height: fit-content;
     max-width: 100px;
+    line-height: 24px;
 }
 
 .content-shop-wrapper { 
@@ -189,6 +184,12 @@
     margin-bottom: 80px;
 }
 
+.advantages-header-container h2 {  
+    text-align: left;
+}
+
+
+
 .advantages-items-holder {  
     width: 1200px;
     height: 420px;
@@ -201,6 +202,10 @@
     height: 420px; 
     display: flex;
     flex-direction: column;
+}
+
+.advantages-item p {    
+    color: #A1A1A1;
 }
 
 .advantages-item h3 {   
